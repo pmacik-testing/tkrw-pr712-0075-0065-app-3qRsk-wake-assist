@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ipso
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0065-tenant/tkrw-pr712-0075-0065-app/devfile-sample-ipso@sha256:331625f87b24f617379b23bd6f0cac783b74ba0548bdcda05a98389f717b801e
         name: my-nodejs
         ports:
         - containerPort: 3001
